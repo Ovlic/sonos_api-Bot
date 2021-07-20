@@ -23,8 +23,7 @@ lastmsg = 0;
 
 
 client.once('ready', async () => {
-    console.log('Bot is online!'.rainbow);
-    client.user.setActivity(`Ovlic#0001`, { type: 'LISTENING' })
+    console.log('Bot is online!');
 
     process.on('unhandledRejection', error => {
         console.error('Unhandled promise rejection:', error);
